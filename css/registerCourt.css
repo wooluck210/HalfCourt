@@ -1,0 +1,31 @@
+.registerBtn {
+    background-color: #000000;
+    z-index: 200;
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.registerBtn span {
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    font-size: 18px;
+    color: #fff;
+    /* font-family: inherit; */
+}
+
+.registerBtn svg {
+    width: 30px;
+    height: 30px;
+}
+
+.registerBtn svg path {
+    fill: #b72923;
+}

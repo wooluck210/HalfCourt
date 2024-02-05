@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(geolocation.css);
+@import url(searchCourt.css);
+@import url(registerCourt.css);
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caprasimo&family=Neonderthaw&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+header {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #b72923;;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#map {
+    width: 100vw;
+    height: calc(100vh - 56px);
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
