@@ -1,7 +1,8 @@
 @import url(reset.css);
-@import url(geolocation.css);
+@import url(geolocationBtn.css);
 @import url(searchCourt.css);
-@import url(registerCourt.css);
+@import url(registerCourtBtn.css);
+@import url(registerCourtModal.css);
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caprasimo&family=Neonderthaw&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@400;600&display=swap');
 
 body {
